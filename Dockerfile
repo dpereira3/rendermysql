@@ -11,7 +11,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:latest
 
 # Install MySQL.
 RUN \
